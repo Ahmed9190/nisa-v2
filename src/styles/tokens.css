@@ -1,0 +1,37 @@
+:root {
+  color-scheme: light only;
+  --font-heading: 'Noto Sans', 'Cairo', system-ui, sans-serif;
+  --font-body: 'Noto Sans', 'Cairo', system-ui, sans-serif;
+  --font-arabic: 'Cairo', system-ui, sans-serif;
+  --font-editorial: 'Cormorant Garamond', Georgia, serif;
+
+  /* Exact Nisa storefront palette */
+  --site-main-primary: #204566;
+  --site-main-accent: #1a3a57;
+  --site-main-text: #204566;
+  --site-main-muted: #1a3a57;
+  --site-main-bg: #fffaf0;
+  --site-main-bg-soft: #fffaf0;
+  --site-main-surface: #ffffff;
+  --site-main-border: #d6e0ea;
+  --site-main-surface-tint: #edf3f9;
+
+  --color-primary: var(--site-main-primary);
+  --color-accent: var(--site-main-accent);
+  --color-text: var(--site-main-text);
+  --color-text-muted: var(--site-main-muted);
+  --color-bg: var(--site-main-bg);
+  --color-surface: var(--site-main-surface);
+  --color-border: var(--site-main-border);
+  --color-surface-tint: var(--site-main-surface-tint);
+  --color-sale: #c4384a;
+  --color-success: #0a7c42;
+  --color-gold: #c9a34f;
+  --color-neutral-text: #212121;
+  --color-neutral-muted: #6e7781;
+
+  --shadow-soft: 0 2px 10px rgba(0, 0, 0, 0.08);
+  --shadow-card: 0 8px 24px rgba(26, 58, 87, 0.08);
+  --transition-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --section-pad-x: clamp(1rem, 4vw, 3.5rem);
+}

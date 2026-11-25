@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.netlify/
+server/data/*.db
+server/data/*.db-wal
+server/data/*.db-shm
+tsconfig.tsbuildinfo
+.DS_Store
